@@ -18,7 +18,8 @@ class CretaTableTache extends Migration {
 			$table->string('name');
 			$table->integer('UserId');
 			$table->string('Description');
-			$table->timestamps();
+			$table->timestamp('updated_at');
+			$table->timestamp('created_at');
 		});
 	}
 

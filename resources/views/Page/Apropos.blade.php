@@ -11,6 +11,7 @@
             Année académique 2015-2016
         </p>
         <h2>Lien vers le dépôt Git du projet</h2>
+        <a href="https://github.com/TOUREAmidou/ProjetLaravel" type="text" class="">Lien</a>
        </p>
         </div>
     @endsection
