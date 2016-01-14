@@ -119,7 +119,7 @@ class MyController extends Controller
         $tache = new ListTache();
        $tache = ListTache::where('UserId',$id)->where('id',$list);//select where userid=$id
         $tache->delete();
-        return redirect('/');
+        return redirect('/inventaire');
     }
 
     public function ModifierTache(Request $request,$list){
@@ -163,7 +163,7 @@ class MyController extends Controller
         $tache = ListTache::where('UserId',$id)->where('ListId',$list);
         $soustache->delete();
         $tache->delete();
-        return redirect('/');
+        return redirect('/inventaire');
     }
 
     public function ModifierSousTache(Request $request,$list){
